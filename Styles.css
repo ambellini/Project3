@@ -1,19 +1,35 @@
 body{
     background-color: lavender;
-    font-family: Lucida Console;
-    text-align: left;
+    background-image: url(clouds.gif);
+    text-align: left; 
 }
-h1 {
-    text-align: center;
+h1{ 
+    font-size: 4em ;
     font-weight: bold;
-    font-family: cursive;
-    font-size: 3em ;
+    padding-left: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+  font-size: 3em;
+  padding-left: 50px;
+  text-decoration: underline;
+}
+h3{
+   font-size: 2em;
+   padding-left: 190px;
+   text-decoration: underline;  
 }
 p{
+    font-size: 1.25em;
     padding-left: 80px;
     padding-right: 90px;
-    text-indent: 30px;
-    font-size: 1.25em
+    text-indent: 30px;  
+}
+.test {
+  border: solid #000000;
+  width: 25em; 
+  word-wrap: break-word;
 }
 /* unvisited link */
 a:link {
@@ -27,37 +43,23 @@ a:link {
   
   /* mouse over link */
   a:hover {
-    color: purple;
-  }
-  
-  /* selected link */
-  a:active {
     color: hotpink;
   }
+
 ul{
-      padding: none;
       text-align: left;
   }
 footer{
-    text-align: left;
     padding-left: 30px;
+    text-align: left;
 }
-h1,h2 { 
-    text-shadow: 3px 3px 3px #ccc;
-    padding-left: 50px;
-    text-decoration: underline;
-}
-h3{
-    padding-left: 190px;
-    text-decoration: underline;
-}
+
 img{
     box-shadow: 5px 5px slategray;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    display: block;
+    display: block; 
+    margin-bottom: 20px; 
     margin-left: 80px;
-    margin-right: 70px;
+    margin-right: 20px;
 }
 a{
     padding-left: 50px;
